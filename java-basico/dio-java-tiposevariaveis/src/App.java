@@ -4,3 +4,12 @@ public class App {
         double salarioMinimo = 2500;
     }
 }
+
+/*
+ ! ------------------------------------------------
+ * tipos primitivos
+ * 
+ * classe String que representa texto na aplicação
+ ! ------------------------------------------------
+ */
+
