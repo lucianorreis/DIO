@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        String nomeCompleto = "Linguagem" + "java";
+        
+        System.out.println(nomeCompleto);
     }
 }
 
