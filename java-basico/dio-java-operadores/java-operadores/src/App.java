@@ -1,12 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        String nomeCompleto = "Linguagem" + "java";
-        
-        System.out.println(nomeCompleto);
+         System.out.println("Hello World");
     }
 }
 
-/*
+/* NOTAS
  * Operadores
  * 
  * -----------------------------------------------------------
