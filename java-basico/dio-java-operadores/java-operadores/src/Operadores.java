@@ -9,3 +9,13 @@ public class Operadores {
         System.out.println(resultado);
     }
 }
+
+/*
+ * Operadores Lógicos
+ * ---------------------------------------------------------------------
+ ? && Operador lógico "E"
+ * Se ambas as condições forem verdadeiras, o resultado será TRUE
+ ? || Operador Lógico "OU"
+ * Se pelo menos uma das condições for verdadeira, o resultado será TRUE
+ * ---------------------------------------------------------------------
+ */
