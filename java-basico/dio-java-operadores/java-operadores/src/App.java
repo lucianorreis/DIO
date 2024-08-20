@@ -1,17 +1,18 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int numero = 5; 
+        boolean variavel = true;
 
         // for (numero = 0; numero <= 5; numero++){
         //     System.out.println(numero);
         // }
 
+        variavel = !variavel;
+
         //x repeticao 
 
-        // numero = numero++;
+        // numero = numero + 1;
 
-        System.out.println(++ numero);
-        System.out.println(numero);
+        System.out.println(variavel);
     }
 }
 
