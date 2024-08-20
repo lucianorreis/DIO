@@ -1,6 +1,17 @@
 public class App {
     public static void main(String[] args) throws Exception {
-         System.out.println("Hello World");
+        int numero = 5; 
+
+        // for (numero = 0; numero <= 5; numero++){
+        //     System.out.println(numero);
+        // }
+
+        //x repeticao 
+
+        // numero = numero++;
+
+        System.out.println(++ numero);
+        System.out.println(numero);
     }
 }
 
