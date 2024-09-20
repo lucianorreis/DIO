@@ -1,3 +1,7 @@
+/*
+ * Classe abstrata chamada de Veículo
+ ?  Cria um Get e um Set para adiciona a numeração dos Chassis
+*/
 public abstract class Veiculo {
     private String chassi;
 

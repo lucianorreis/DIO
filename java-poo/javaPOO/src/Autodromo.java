@@ -1,3 +1,5 @@
+//! O AUTODROMO
+// * Classe pricipal onde os objetos são disparados
 
 public class Autodromo {
     public static void main(String[] args) {
@@ -8,5 +10,6 @@ public class Autodromo {
 
         Moto ninja = new Moto();
         ninja.setChassi("101035");
+        ninja.ligar();
     }
 }
