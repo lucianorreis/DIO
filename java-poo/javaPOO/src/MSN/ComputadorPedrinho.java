@@ -13,8 +13,6 @@ public class ComputadorPedrinho{
             System.out.println("- - - - - M S N - - - - -");
             System.out.println("MENU: ");
             System.out.println("1 - Enviar Mensagem");
-            System.out.println("2 - Verificar Conexão");
-            System.out.println("3 - Salvar Histórico");
             System.out.println("");
 
             System.out.println("Digite aqui: ");
@@ -27,12 +25,6 @@ public class ComputadorPedrinho{
             switch (entrada) {
                 case (1) -> //Envia mensagem
                     msn.enviarMensagem();
-                
-                case (2) -> //Verifica Conexão
-                    msn.validarInternet();
-                    
-                case (3) -> //Salva histórico
-                    msn.salvarHistorico();
                 default -> throw new AssertionError();
             }
         }
